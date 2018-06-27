@@ -1,0 +1,15 @@
+states(Q):
+q0,q1,q2,q3,q4,q5
+character:
+a,b
+initial state:
+q0
+final state:
+q5
+transition:
+q1,q3
+q1,q2
+q2,q5
+q3,q4
+q4,q5
+q5,q5

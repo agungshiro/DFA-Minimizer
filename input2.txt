@@ -1,0 +1,18 @@
+states(Q):
+qA,qB,qC,qD,qE,qF,qG,qH,qI
+character:
+a,b
+initial state:
+qA
+final state:
+qC,qF,qI
+transition:
+qB,qE
+qC,qF
+qD,qH
+qE,qH
+qF,qI
+qG,qB
+qH,qB
+qI,qC
+qA,qE
