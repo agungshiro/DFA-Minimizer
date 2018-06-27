@@ -1,7 +1,7 @@
 DFA-Minimizer
 
 This is a program written in Java that will perform a DFA simulation and doing a minimizing proccess for a complex DFA diagram. The input would be a .txt file which has format just mention bellow :
-
+```
 states(Q):
 qA,qB,qC,qD,qE,qF,qG,qH
 character:
@@ -19,9 +19,9 @@ qD,qF
 qG,qE
 qF,qG
 qG,qD
-
+```
 And you'll get the output, something like this
-
+```
 States : qA,qB,qC,qD,qE,qF,qG,qH 
 Characters : a,b 
 Initial state : qA 
@@ -109,3 +109,4 @@ qH 	|
 qA,qG 	|
 qB,qF 	|
 qC,qE 	|
+```
